@@ -9,12 +9,10 @@
 }
 
 .App-mainlogo {
-  height: 200px;
+  height: 300px;
 }
 
-.demographics_line_plot{
-  width: 700px;
-}
+
 
 .App-header {
   background-color: white;
@@ -33,16 +31,23 @@
 }
 
 body{
-  padding: 75px;
+  padding: 95px;
+}
+
+.edit-text{
+  color: red;
+  text-align: left;
 }
 
 
 .text{
   color: #514e4e;
+  text-align: left;
 }
 .header-text{
   font-family: 'Merriweather', serif;
   font-size: 55px;
+
 }
 
 .topic-text{
@@ -52,28 +57,81 @@ body{
   font-size: 36px;
 }
 
+.sub-topic-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+}
+
 .body-text{
   font-family: 'Open Sans', sans-serif;
   /*font-family: 'Montserrat', sans-serif; */
-  text-align: center;
   font-weight:200;
   font-size: 18px;
 }
 
+
+
+
+
+
 section{
   display: flex;
   background: white;
-  padding: 10px;
+  padding: 1px;
 }
 
 article {
-  padding: 10px;
+  /*top right bottom left*/
+  padding: 3px 10px 10px;
   flex-basis: 0;
   flex-grow: 2;
-
-  margin: 10px;
+  margin: 5px;
   background: white;
 }
+
+.highlight-yellow{
+  background-color: #F0C808;
+}
+
+.demographics_line_plot{
+  width: 700px;
+}
+
+.nc_bar{
+  width: 350px;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
 
 
 
