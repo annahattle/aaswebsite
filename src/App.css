@@ -28,11 +28,32 @@
   color: #05A1C4;
 }
 
+body{
+  padding: 75px;
+}
 
-article {
-  padding: 10px;
-  margin: 10px;
-  background: white;
+
+.text{
+  color: #514e4e;
+}
+.header-text{
+  font-family: 'Merriweather', serif;
+  font-size: 55px;
+}
+
+.topic-text{
+  /*font-family: 'Nanum Gothic', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+}
+
+.body-text{
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Montserrat', sans-serif; */
+  text-align: center;
+  font-weight:200;
+  font-size: 18px;
 }
 
 section{
@@ -40,6 +61,17 @@ section{
   background: white;
   padding: 10px;
 }
+
+article {
+  padding: 10px;
+  flex-basis: 0;
+  flex-grow: 2;
+
+  margin: 10px;
+  background: white;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
