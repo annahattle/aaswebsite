@@ -77,15 +77,20 @@ class App extends Component {
     administration is paying attention to us and what we want.
 
     <p class="text header-text">What is Asian American Studies?</p>
-<p class="text topic-text">There is a difference between Asian Studies and Asian American Studies. </p>
-<p class="text body-text">Unlike "Asian" Studies which focuses on the history, politics, culture, religion, literary expression, of Asian people living in Asia,  Asian American Studies is interested in the history, culture, experiences, of Asians living in the United States.</p>
-<p class="text body-text">Asian American Studies emerged out of the Civil Rights Movement and the growing interest of diverse ethnic populations here in the U.S. in their unique, but also shared, experiences and political challenges. Academic programs in Asian American Studies provide students with the opportunity to think about race beyond the black and white binary by addressing the following topics: </p>
+    <p class="text topic-text">There is a difference between Asian Studies and Asian American Studies. </p>
+    <p class="text body-text">Unlike "Asian" Studies which focuses on the history, politics, culture, religion, literary expression, of Asian people living in Asia, Asian American Studies is interested in the history, culture, experiences, of Asians
+      living in the United States.</p>
+    <p class="text body-text">Asian American Studies emerged out of the Civil Rights Movement and the growing interest of diverse ethnic populations here in the U.S. in their unique, but also shared, experiences and political challenges. Academic
+      programs in Asian American Studies provide students with the opportunity to think about race beyond the black and white binary by addressing the following topics: </p>
 
     <p class="text header-text">Why Asian American Studies at UNC?</p>
     <p class="text topic-text">Asian American Studies is a valuable intellectual field, enrichening for both AAPI and non-AAPI students.</p>
-    <p class="text body-text">Everyone benefits from learning being racially literate in a society being transformed by forces like immigration and race-based policies. We should all be able to answer: <i>What is the significance of a growing Asian American student population at UNC, growing AsAm population in N.C and nationwide, and the implications on policy, economy, education, social transformation? What histories have been hidden or forgotten, and how can students and UNC as an institution move forward in recognizing and listening to marginalized voices?  How does a growing N.C. AsAm population complicate the traditional notion of a Black & White South?</i> </p>
+    <p class="text body-text">Everyone benefits from learning being racially literate in a society being transformed by forces like immigration and race-based policies. We should all be able to answer: <i>What is the significance of a growing Asian
+        American student population at UNC, growing AsAm population in N.C and nationwide, and the implications on policy, economy, education, social transformation? What histories have been hidden or forgotten, and how can students and UNC as an
+        institution move forward in recognizing and listening to marginalized voices? How does a growing N.C. AsAm population complicate the traditional notion of a Black & White South?</i> </p>
     <p class="text sub-topic-text">A growing AAPI population in North Carolina:</p>
-    <p class="text body-text">North Carolina’s Asian population is the fastest-growing racial/ethnic group in the state. The state’s Asian population grew from 227,046 residents in 2010 to 325,289 in 2017, an increase of nearly 50%. The state’s total population grew by 7.7% over this period.</p>
+    <p class="text body-text">North Carolina’s Asian population is the fastest-growing racial/ethnic group in the state. The state’s Asian population grew from 227,046 residents in 2010 to 325,289 in 2017, an increase of nearly 50%. The state’s
+      total population grew by 7.7% over this period.</p>
     <p class="text body-text">Between 2000 and 2010, North Carolina’s Asian-American population grew by 85%— the fastest rate among Southern states and the 3rd fastest in the country:</p>
     <img src={nc_bar} className="nc_bar" />
     <p class="edit-text sub-topic-text">[insert information about letter writing campaign, pull quotes?]</p>
@@ -98,15 +103,16 @@ class App extends Component {
 
     <p class="text header-text">Why is this not enough?</p>
     <p class="text topic-text">13/15 of our peer institutions offer a formalized program of study in Asian American Studies,
-    with a major and/or minor. </p>
+      with a major and/or minor. </p>
     <p class="edit-text sub-topic-text">[insert chart comparison with peer institutions]</p>
-    <p class="text body-text">UNC, as a public institution, is lagging behind its peer institutions in preparing its students to understand the significance of the Asian American population increase both in North Carolina and nationwide. They are failing to provide the adequate curriculum and student services to prepare its students for local and national changes in America’s political and social landscapes.</p>
+    <p class="text body-text">UNC is lagging behind its peer institutions in preparing its students to understand the significance of the Asian American population increase both in North Carolina and nationwide. They are
+      failing to provide the adequate curriculum and student services to prepare its students for local and national changes in America’s political and social landscapes.</p>
 
     <p class="text header-text">Why an Asian American Student Center?</p>
     <p class="text topic-text">Sonja Haynes Stone Center. Carolina Latinx Collaborative.
-    Carolina Indian Circle. Why not an Asian American Student Center?</p>
+      Carolina Indian Circle. Why not an Asian American Student Center?</p>
     <p class="text body-text">There is an urgency and importance of adding an Asian American-focus to student services. We are the largest and fastest-growing minority student population at UNC, yet we are the only group with no dedicated space:
-</p>
+    </p>
     <img src={dm_graph} className="demographics_line_plot" />
     <p class="edit-text sub-topic-text">[insert x organizations endorse this]</p>
 
