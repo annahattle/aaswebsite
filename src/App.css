@@ -20,12 +20,25 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: grey;
+  color: black;
   padding: 100px;
 }
 
 .App-link {
   color: #05A1C4;
+}
+
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: white;
+}
+
+section{
+  display: flex;
+  background: white;
+  padding: 10px;
 }
 
 @keyframes App-logo-spin {
