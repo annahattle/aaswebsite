@@ -45,8 +45,11 @@ body{
   text-align: left;
 }
 .header-text{
-  font-family: 'Merriweather', serif;
-  font-size: 55px;
+  /*font-family: 'Merriweather', serif;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  letter-spacing: -3.5px;;
 
 }
 
@@ -54,7 +57,7 @@ body{
   /*font-family: 'Nanum Gothic', sans-serif;*/
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 36px;
+  font-size: 34px;
 }
 
 .sub-topic-text{
@@ -64,7 +67,7 @@ body{
 }
 
 .body-text{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Esteban', serif;
   /*font-family: 'Montserrat', sans-serif; */
   font-weight:200;
   font-size: 18px;
@@ -92,6 +95,17 @@ article {
 
 .highlight-yellow{
   background-color: #F0C808;
+  color:white;
+}
+
+.highlight-blue{
+  background-color: #05A1C4;
+  color:white;
+}
+
+.highlight-red{
+  background-color: #DD1C1A;
+  color:white;
 }
 
 .demographics_line_plot{
