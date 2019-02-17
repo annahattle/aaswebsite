@@ -16,7 +16,12 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+<<<<<<< HEAD
   color: purple;
+=======
+  color: white;
+  padding: 100px;
+>>>>>>> jade_test
 }
 
 .App-link {
