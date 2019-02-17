@@ -8,15 +8,19 @@
   pointer-events: none;
 }
 
+.App-mainlogo {
+  height: 100px;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: purple;
+  color: grey;
   padding: 100px;
 }
 

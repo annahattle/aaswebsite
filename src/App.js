@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './sun.png';
+import wglogo from './wglogo.png';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +8,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={wglogo} className="App-mainlogo"/>
+          {/*<img src={logo} className="App-logo" alt="logo" />*/}
           <p>
           The third recorded iteration of AAPI (Asian American Pacific Islander) Working Group, we are a student-led advocacy group established in 2016.  We advocate for the needs of Asian American and Pacific Islander students at UNC Chapel Hill and are focused on the following goals:
           GOAL #1: SPACE: An Asian American student center that houses AAPI student organizations and their offices, provides social and academic mentorship in the form of libraries, scholarship information, etc and provides a collaborative space for student organizations to create programming and resources catered to UNC’s Asian American students.
