@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './sun.png';
 import wglogo from './wglogo.png';
+import dm_graph from './unc_demographics.png';
 import './App.css';
 
 class App extends Component {
@@ -55,7 +56,7 @@ class App extends Component {
         </p>
         </article>
         </section>
-
+        <img src={dm_graph} className="demographics_line_plot"/>
 
         </body>
       </div>

@@ -12,6 +12,10 @@
   height: 200px;
 }
 
+.demographics_line_plot{
+  width: 700px;
+}
+
 .App-header {
   background-color: white;
   min-height: 50vh;
