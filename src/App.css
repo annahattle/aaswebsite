@@ -63,7 +63,7 @@ body{
 .sub-topic-text{
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .body-text{
@@ -115,6 +115,15 @@ article {
 .nc_bar{
   width: 350px;
   text-align: center;
+}
+
+.course_data{
+  width:1000px;
+  text-align: center;
+}
+
+.peer_comp{
+  width:700px;
 }
 
 .fa {

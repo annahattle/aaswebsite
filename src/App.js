@@ -3,6 +3,8 @@ import logo from './sun.png';
 import wglogo from './wglogo.png';
 import dm_graph from './unc_demographics.png';
 import nc_bar from './nc_bar.png';
+import course_data from './trash_course_data.png';
+import peer_comp from './trash_peer_chart.png';
 import './App.css';
 
 class App extends Component {
@@ -64,10 +66,14 @@ class App extends Component {
     </article>
   </section>
 
-  <p class="text sub-topic-text"> Our asks are not new. So, why now? Why not 5 years from now?
-    Because timing matters. Now, more than ever, the campus climate is changing.
-    Students have organized and enacted change on this campus.
-    There is a momentum, and we can not let this opportunity to pass when the
+  <p class="text topic-text"> Our asks are not new. <b>So, why now?</b>  </p>
+  <p class="text sub-topic-text">
+    Because timing matters. The campus climate is changing because
+    students have organized to affect change (<a href="https://www.nytimes.com/2018/08/21/us/unc-silent-sam-monument-toppled.html">Removal of Silent Sam</a>, <a href="https://www.dailytarheel.com/article/2019/02/latinx-center-bot-0204"> Carolina Latinx Center</a>,
+      the subsequent <a href="https://www.nytimes.com/2019/01/15/us/silent-sam-statue-removal-unc.html">change in administration</a>) --
+       and neither will it stop changing (<a href="https://www.nytimes.com/2019/01/18/us/unc-affirmative-action-lawsuit.html?smprod=nytcore-ipad&smid=nytcore-ipad-share">upcoming affirmative action case</a>).
+      There is a momentum building, and
+    we absolutely cannot let this opportunity pass when the
     administration is paying attention to us and what we want.
 
     <p class="text header-text highlight-red">Brief description of AAS. </p>
@@ -75,52 +81,83 @@ class App extends Component {
     <p class="text body-text">Unlike <b>Asian Studies</b>, which focuses on the history,
     politics, culture, and experiences of Asian people living in Asia, <b>Asian American Studies</b> is
     interested in the history, politics, culture, experiences, of Asians
-      living in the United States. Below shows a cross course comparison between the two departments: </p>
+      living in the United States. Asian American Studies emerged out of the Civil Rights Movement in the 1960s and 1970s.
+      During the Third World Liberation Movement, students of Color at San Francisco University demanded
+      their college curriculum reflect the diverse histories of ethnic populations in the US that have existed for hundreds
+      of years. An incredible demonstration of coalition building, the rise of Ethnic Studies, including AAS,
+      was a powerful example of reaching across communities to recognize shared experiences of oppression and political challenges.
+      Below shows a cross course comparison between the two areas of study: </p>
       <p class="edit-text sub-topic-text">[insert chart]</p>
 
-    <p class="text body-text">Asian American Studies emerged out of the Civil Rights Movement in the 1960s and 1970s.
-    During the Third World Liberation Front, students of Color at San Francisco University demanded
-    their college curriculum reflect the diverse histories of ethnic populations in the US that have existed for hundreds
-    of years. An incredible demonstration of coalition building, the rise of Ethnic Studies, including AAS,
-    was a powerful example of reaching across communities to recognize shared experiences of oppression and political challenges.  </p>
-
     <p class="text header-text highlight-blue">Why AAS at UNC.</p>
-    <p class="text topic-text">Asian American Studies is a valuable intellectual field, enrichening for both AAPI and non-AAPI students.</p>
-    <p class="text body-text"><i>What is the significance of a growing Asian
-        American student population at UNC, growing AsAm population in N.C and nationwide, and the implications on policy, economy, education, social transformation? What histories have been hidden or forgotten, and how can students and UNC as an
-        institution move forward in recognizing and listening to marginalized voices? How does a growing N.C. AsAm population complicate the traditional notion of a Black & White South?</i> </p>
+    <p class="text topic-text">First: why AAS at all? Because AAS is a valuable intellectual field, enrichening for <b>all</b> students.</p>
+    <p class="text body-text">Can you name five historical Asian American figures? Five Asian American authors? Five Asian American activists? Were you ever taught about them in class? If knowledge is power—which schools love to preach—then what does it mean for the narratives, perspectives, and experiences of white European Americans to dominate mainstream curricula? More often than not, the study of American history is the study of white Euro-American history. American people of color are brought into the picture, but only as they exist in relation to white Americans: students only hear about slavery and Civil Rights, Japanese internment, the Trail of Tears, Texas annexation, and so on. Otherwise, the perspectives of non-white Americans are either forgotten, silenced, or sanitized. Rarely are they taught as having dignity as Americans in their own right. Ethnic studies, like Asian American studies, are necessary to fill gaps in perspective, in history, but also literature, politics, gender studies, and more. Ethnic studies, like Asian American studies, are necessary to redefine the notion of Americanness, both politically and personally. When students are not taught about significant Asian American figures, policies, or events, the presumption is that they do not exist. Most do not realize that Asian people have been in the Americas since the sixteenth century and have been with the United States since its inception. In other words, in the realm of all things Asian American, there is a lot to study. How has immigration and naturalization policy shaped Asian America? How do writers, poets, and artists both reflect and create the Asian American experience? How do Asian American women and queer Asian Americans navigate their respective spaces? Scholars cannot pretend that a full understanding of the United States is possible without AAS, just as how it is not possible without the inclusion of Black or Latinx or native narratives, or any other identities of race, gender and sexuality, class, or religion for that matter. Thus, AAS should be relevant to all those interested in studying America, not just for Asian American students. AAS is a means to contextualizing the Asian American community today, as a group that has been, just this summer, entangled in discussions of income inequality, affirmative action, and refugee and undocumented migration. As celebrated activist Yuri Kochiyama said: “Unless we know ourselves and our history, and other people and their history, there is really no way that we can really have [the] positive kind of interaction where there is real understanding.” - taken from Duke's Disorientation Guide</p>
 
-        <p class="text body-text">Everyone benefits from learning being racially literate in a society being transformed by forces like immigration and race-based policies. </p>
-    <p class="text sub-topic-text">A growing AAPI population in North Carolina.</p>
-    <p class="text body-text">UNC is a <b>public institution</b>. North Carolina’s Asian population is the fastest-growing racial/ethnic group in the state. The state’s Asian population grew from 227,046 residents in 2010 to 325,289 in 2017, an increase of nearly 50%. The state’s
-      total population grew by 7.7% over this period.</p>
-    <p class="text body-text">Between 2000 and 2010, North Carolina’s Asian-American population grew by 85%— the fastest rate among Southern states and the 3rd fastest in the country:</p>
+    <p class="text topic-text">Second: why AAS now?</p>
+    <p class="text sub-topic-text"><i>“As the nation’s fastest-growing racial or ethnic group,
+    Asian Americans are at the nexus of two vectors of 21st-century America:
+    the growing dominance of China and Asia, and the approaching “new American majority” of
+    nonwhite peoples. Study of these issues is needed in our present moment of border walls,
+    economic disparity and globalization...serious scholarship cannot
+    thrive without an institutional foundation.”</i> - <a href="https://www.washingtonpost.com/opinions/will-harvard-continue-to-fail-asian-americans--or-will-it-learn-from-the-past/2019/02/12/80fb1492-2f04-11e9-86ab-5d02109aeb01_story.html?fbclid=IwAR2spqgqEHaETcnUsPe_FaGnnY3RpMkxjRcvhtJ6ez_YsoDqlgsHhGR8bXk&utm_term=.b4ab60d3fff1">
+    Renee Tajima-Peña</a>, professor of Asian American Studies at UC Berekeley</p>
+    <p class="text body-text">No such foundation exists at UNC.
+    Especially
+    as a public institution positioned in the South, the changing landscape of both North Carolina and the South as a region
+    further add to the relevance of Asian American Studies <b>here</b>: <i>What is the significance of a growing Asian
+        American student population at UNC, NC and nationwide,
+        and the implications on policy, economy, education, social transformation?
+        What histories have been hidden or forgotten, and how can students and UNC as an
+        institution move forward in recognizing and listening to marginalized voices?
+        How does a growing NC Asian American population complicate the traditional notion of a Black & White South?</i> </p>
+
+
+    <p class="text body-text">In the state of North Carolina.
+    North Carolina’s Asian population is the fastest-growing racial/ethnic group in the state.
+    The state’s Asian population grew from 227,046 residents in 2010 to 325,289 in 2017,
+    an increase of nearly 50%. The state’s total population grew by 7.7% over this period.</p>
+
+    <p class="text body-text">Between 2000 and 2010, North Carolina’s Asian-American population grew by 85% — the fastest rate
+    among Southern states and the 3rd fastest in the country:</p>
     <img src={nc_bar} className="nc_bar" />
     <p class="edit-text sub-topic-text">[insert information about letter writing campaign, pull quotes?]</p>
 
 
-    <p class="text header-text">What UNC offers for AAS.</p>
-    <p class="text topic-text">The University currently offers no certificate, minor, or major in Asian American Studies. </p>
-    <p class="edit-text sub-topic-text">[insert data viz about courses + freq, enrollment, capacity - hover for info]</p>
+    <p class="text header-text highlight-yellow">What UNC offers for AAS.</p>
+    <p class="text topic-text">The University currently offers no program of study, minor, or major in AAS. </p>
+    <p class="text sub-topic-text">Here are the few courses offered in Asian American topics in the past 9 years:</p>
+
+    <img src={course_data} className="course_data" />
+    <p class="text sub-topic-text">Only <b>5 different courses</b> in Asian American topics have been taught at UNC in the past 9 years --
+    the few courses that are offered are <b>not offered regularly</b>.</p>
+    <p class="text sub-topic-text">In the past 9 years, almost all courses offered in Asian American
+    topics were either <b>at max capacity or near max capacity</b> --
+    courses with less than 75% had not been taught in <b>at least than 2.5 years</b>.</p>
+    <p class="text sub-topic-text">Furthermore, these courses are taught by the same few professors (listed below). Currently, there is no
+    faculty member specialized in Asian American history.</p>
     <p class="edit-text sub-topic-text">[insert faculty information]</p>
 
-    <p class="text header-text">Why this is not enough.</p>
+    <p class="text header-text highlight-red">Why this is not enough - peer comparison.</p>
     <p class="text topic-text">13/15 of our peer institutions offer a formalized program of study in Asian American Studies,
-      with a major and/or minor. </p>
-    <p class="edit-text sub-topic-text">[insert chart comparison with peer institutions]</p>
+      and/or a major and/or a minor. </p>
+    <img src={peer_comp} className="peer_comp" />
     <p class="text body-text">UNC is lagging behind its peer institutions in preparing its students to understand the significance of the Asian American population increase both in North Carolina and nationwide. They are
       failing to provide the adequate curriculum and student services to prepare its students for local and national changes in America’s political and social landscapes.</p>
 
-    <p class="text header-text">Why an Asian American Student Center.</p>
+    <p class="text header-text highlight-blue">Why an Asian American Student Center.</p>
     <p class="text topic-text">Sonja Haynes Stone Center. Carolina Latinx Center.
       Carolina Indian Circle. Where is the Asian American Student Center?</p>
-    <p class="text body-text">There is an urgency and importance of adding an Asian
-    American-focus to student services. Asian Americans are the largest and fastest-growing minority
-    student population at UNC. In the past 8 years, our population has nearly doubled; in 2010,
-    Asian Americans comprised 8.6% of the total undergraduate student population. In 2018, this number is 16%.
-    yet we are the only group with no dedicated space:
-    </p>
+    <p class="text body-text">The Asian American population at UNC is the <b>largest
+    and fastest-growing</b> minority student population at UNC. Which makes it even more baffling
+    that there exists no dedicated space for Asian Americans on campus. As the Asian American population
+    continues to grow, there is an <b>urgency and importance</b> to adding an Asian
+    American-focus to student services.</p>
+
     <img src={dm_graph} className="demographics_line_plot" />
+    <p class="text sub-topic-text">In the past 8 years, the Asian American student population has <b>more than doubled</b>. In 2010,
+    Asian Americans comprised 8.6% of the total undergraduate student population; in 2018, this number is now 16%.</p>
+
+
     <p class="edit-text sub-topic-text">[insert x organizations endorse this]</p>
 
   </p>
