@@ -108,22 +108,24 @@ article {
   color:white;
 }
 
-.demographics_line_plot{
-  width: 700px;
+.dm_graph{
+  margin: auto;
+  width: 100%;
 }
 
 .nc_bar{
-  width: 350px;
-  text-align: center;
+  margin: auto;
+  width: 50%;
 }
 
 .course_data{
-  width:1000px;
-  text-align: center;
+  margin: auto;
+  width: 100%;
 }
 
 .peer_comp{
-  width:700px;
+  margin: auto;
+  width: 70%;
 }
 
 .fa {
@@ -153,6 +155,8 @@ article {
   background: #55ACEE;
   color: white;
 }
+
+#more {display: none;}
 
 
 
